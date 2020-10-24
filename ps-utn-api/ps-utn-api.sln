@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ps-utn-api", "ps-utn-api\ps-utn-api.csproj", "{E418536F-74FA-41AE-81E2-CCC23D5A33CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ps-utn-api-database", "ps-utn-api-database\ps-utn-api-database.csproj", "{EB3B51F0-7549-4976-9F3F-A99271F961D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E418536F-74FA-41AE-81E2-CCC23D5A33CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E418536F-74FA-41AE-81E2-CCC23D5A33CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E418536F-74FA-41AE-81E2-CCC23D5A33CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E418536F-74FA-41AE-81E2-CCC23D5A33CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3B51F0-7549-4976-9F3F-A99271F961D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3B51F0-7549-4976-9F3F-A99271F961D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3B51F0-7549-4976-9F3F-A99271F961D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3B51F0-7549-4976-9F3F-A99271F961D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC6BAC67-E04D-4EEE-ACB4-97AD7EB75AE0}
+	EndGlobalSection
+EndGlobal
