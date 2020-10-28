@@ -5,5 +5,11 @@
     <RootNamespace>ps_utn_api</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KDSoft.Application.Data\ManagementEsports.Data.csproj" />
+    <ProjectReference Include="..\ManagementEsports.Business\ManagementEsports.Business.csproj" />
+    <ProjectReference Include="..\ps-utn-api-database\ps-utn-api-database.csproj" />
+  </ItemGroup>
+
 
 </Project>

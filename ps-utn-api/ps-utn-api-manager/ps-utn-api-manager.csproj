@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>ps_utn_api_manager</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ps-utn-api-BusinessLogic\ps-utn-api-BusinessLogic.csproj" />
+    <ProjectReference Include="..\ps-utn-api-dtos\ps-utn-api-dtos.csproj" />
+  </ItemGroup>
+
+</Project>

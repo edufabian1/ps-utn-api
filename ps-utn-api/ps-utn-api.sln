@@ -4,8 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ps-utn-api", "ps-utn-api\ps-utn-api.csproj", "{E418536F-74FA-41AE-81E2-CCC23D5A33CE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A902DE53-9F25-4185-A224-190C9D18FD15} = {A902DE53-9F25-4185-A224-190C9D18FD15}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ps-utn-api-database", "ps-utn-api-database\ps-utn-api-database.csproj", "{EB3B51F0-7549-4976-9F3F-A99271F961D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ps-utn-api-database", "ps-utn-api-database\ps-utn-api-database.csproj", "{EB3B51F0-7549-4976-9F3F-A99271F961D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagementEsports.Data", "KDSoft.Application.Data\ManagementEsports.Data.csproj", "{4175E2FA-7C49-45C7-A761-DEF8E7AE468C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagementEsports.Business", "ManagementEsports.Business\ManagementEsports.Business.csproj", "{A902DE53-9F25-4185-A224-190C9D18FD15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagementEsports.Models", "ManagementEsports.Models\ManagementEsports.Models.csproj", "{CDAA790A-C297-4514-A59D-0E012344255F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +30,18 @@ Global
 		{EB3B51F0-7549-4976-9F3F-A99271F961D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB3B51F0-7549-4976-9F3F-A99271F961D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB3B51F0-7549-4976-9F3F-A99271F961D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4175E2FA-7C49-45C7-A761-DEF8E7AE468C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4175E2FA-7C49-45C7-A761-DEF8E7AE468C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4175E2FA-7C49-45C7-A761-DEF8E7AE468C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4175E2FA-7C49-45C7-A761-DEF8E7AE468C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A902DE53-9F25-4185-A224-190C9D18FD15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A902DE53-9F25-4185-A224-190C9D18FD15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A902DE53-9F25-4185-A224-190C9D18FD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A902DE53-9F25-4185-A224-190C9D18FD15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDAA790A-C297-4514-A59D-0E012344255F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDAA790A-C297-4514-A59D-0E012344255F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDAA790A-C297-4514-A59D-0E012344255F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDAA790A-C297-4514-A59D-0E012344255F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
